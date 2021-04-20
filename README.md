@@ -1,1 +1,3 @@
-# SeyfiWebTamrin3
+---
+permalink: /index.html
+---
