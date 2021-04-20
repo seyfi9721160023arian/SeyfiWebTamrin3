@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Shabnam', sans-serif;
+  transition: all 300ms linear;
+}
+a {
+  text-decoration: none;
+  color: chocolate;
+}
+
+.mainpage {
+  background-image: url("University_of_Kashan.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  direction: rtl;
+}
+
+.contactspage {
+    background-image: url("Sagfh_borujerdi_ha.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    direction: rtl;
+  }
+
+.aboutpage{
+    background-image: url("tabatabaei-house-in-Kashan.irantravelingcenter.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    direction: rtl;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box,.boxmenu {
+  background-color: #f1f1f1;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+@media(max-width:568px){
+    .box,.boxmenu{
+        background-color: darkgray;
+        font-size: 18px;
+    }
+}
+@media(min-width:1280px){
+    .box,.boxmenu{
+        padding: 20px;
+    }
+}
+@media(min-width:1440px){
+    .box,.boxmenu{
+        background-color: rgb(187, 187, 178);
+        font-size: 50px;
+    }
+}
+@media print{
+  .boxmenu{
+    display: none;
+  }
+  .box{
+    font-size: 45px;
+  }
+}
+
+
